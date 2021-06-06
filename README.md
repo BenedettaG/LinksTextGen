@@ -33,7 +33,7 @@ In order to generate captions the following command must be exectued:
 9.     python generation.py --temperature 0.5 --model seqlen256_v1.ckpt 
 
 <br>
-It is possible to change the default values of generation parameters, like temperature, topK, nucleus and penalty, with the specific flags (have a look generation.py for further details).
+It is possible the default values of generation parameters, like temperature, topK, nucleus and penalty, with the specific flags (have a look generation.py for further details).
 
 10.     python generation.py --temperature 0.5 --nucleus 0.8 --model seqlen256_v1.ckpt 
 
